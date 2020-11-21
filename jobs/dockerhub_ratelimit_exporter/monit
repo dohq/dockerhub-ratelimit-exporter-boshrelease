@@ -1,0 +1,5 @@
+check process dockerhub_ratelimit_exporter
+  with pidfile "/var/vcap/sys/run/bpm/dockerhub_ratelimit_exporter/dockerhub_ratelimit_exporter.pid"
+  start program "/var/vcap/jobs/bpm/bin/bpm start dockerhub_ratelimit_exporter"
+  stop program "/var/vcap/jobs/bpm/bin/bpm stop dockerhub_ratelimit_exporter"
+  group vcap

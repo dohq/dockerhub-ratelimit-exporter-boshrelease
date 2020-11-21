@@ -1,0 +1,7 @@
+---
+name: dockerhub_ratelimit_exporter
+
+dependencies: []
+
+files:
+- dockerhub_ratelimit_exporter/dockerhub_ratelimit_exporter_linux_x86_64.tar.gz

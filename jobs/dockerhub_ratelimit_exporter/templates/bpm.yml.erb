@@ -1,0 +1,14 @@
+processes:
+- name: dockerhub_ratelimit_exporter
+  executable: /var/vcap/packages/dockerhub_ratelimit_exporter/bin/dockerhub_ratelimit_exporter
+  workdir: /var/vcap/packages/dockerhub_ratelimit_exporter
+  args:
+  <% if_p("username") do %>
+  - -username=<% p("username") do %>
+  <% end %>
+  <% if_p("password") do %>
+  - -password=<% p("password") do %>
+  <% end %>
+  <% if_p("listen") do %>
+  - -listen=<% p("listen") do %>
+  <% end %>
