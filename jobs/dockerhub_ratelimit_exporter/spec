@@ -14,3 +14,4 @@ properties:
     description: "Password for use in authentication"
   listen:
     description: "The address to listen on for HTTP requests. (default '127.0.0.1:9767')"
+    default: 127.0.0.1:9767
