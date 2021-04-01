@@ -1,3 +1,4 @@
 dockerhub_ratelimit_exporter/dockerhub_ratelimit_exporter_linux_x86_64.tar.gz:
-  size: 3294873
-  sha: sha256:1d4659da7dd570c4398320d17370ac7d9dd867f5c412c8f7f2f6fb4c5268be53
+  size: 3153325
+  object_id: 0fad5f45-8bbc-472d-7299-6f3ea3e33026
+  sha: sha256:a6cdc507d12bc4ad744a819646531dc3caf478803d985da7c1a93fbb31593cbb
