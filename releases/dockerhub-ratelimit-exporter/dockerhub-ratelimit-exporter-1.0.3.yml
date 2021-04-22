@@ -1,0 +1,21 @@
+name: dockerhub-ratelimit-exporter
+version: 1.0.3
+commit_hash: 9f6b2f7
+uncommitted_changes: true
+jobs:
+- name: dockerhub_ratelimit_exporter
+  version: 90baffcf20f0636d550f829ea6a0031ab04dab2c3b1f13f0a4abe2b88700b6e8
+  fingerprint: 90baffcf20f0636d550f829ea6a0031ab04dab2c3b1f13f0a4abe2b88700b6e8
+  sha1: sha256:caa31906e07368ba2ba15e4e29c3815fb1610403f710c452a669bd4762bb2872
+  packages:
+  - dockerhub_ratelimit_exporter
+packages:
+- name: dockerhub_ratelimit_exporter
+  version: 944baf2f405513d2ef0b640df431e04a29080fe15237d3454f175beb19df33e0
+  fingerprint: 944baf2f405513d2ef0b640df431e04a29080fe15237d3454f175beb19df33e0
+  sha1: sha256:d67c2b6e4e2cc897f76921dff84ea0bd6cae72e45198b57a216c67b27d08f0ca
+  dependencies: []
+license:
+  version: 9daedc6f84b2e46b5e512e037adb6bcdf99418dd84e63143dddaed494ce5ef02
+  fingerprint: 9daedc6f84b2e46b5e512e037adb6bcdf99418dd84e63143dddaed494ce5ef02
+  sha1: sha256:9f01b67ad6b629710609a605249bdec36372473d21118e2d4575d53a8660103b

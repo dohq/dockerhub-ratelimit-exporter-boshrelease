@@ -2,5 +2,6 @@ name: dockerhub-ratelimit-exporter
 blobstore:
   provider: s3
   options:
-    bucket_name: dockerhub-ratelimit-exporter-bosh-blobs-49016
+    bucket_name: dockerhub-ratelimit-exporter-boshrelease
     region: ap-northeast-1
+    endpoint: https://s3-ap-northeast-1.amazonaws.com
