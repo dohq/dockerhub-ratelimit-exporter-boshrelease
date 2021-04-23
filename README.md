@@ -7,9 +7,8 @@
 ```
 ./add-blob.sh
 
-bosh create-release
-bosh create-release --tarball=/tmp/dockerhub_ratelimit-exporter.tgz --timestamp-version --force
-bosh upload-release /tmp/dockerhub_ratelimit_exporter.tgz
+bosh create-release --tarball=/tmp/dockerhub-ratelimit-exporter-boshrelease.tgz --timestamp-version --force
+bosh upload-release /tmp/dockerhub-ratelimit-exporter-boshrelease.tgz
 ```
 # license
 MIT
